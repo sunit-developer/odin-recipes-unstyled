@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write  # Grant write access to deploy contents
   pages: write     # Grant write access to GitHub Pages
+  id-token: write  # Grant write access to ID tokens
 
 jobs:
   deploy:
