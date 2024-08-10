@@ -16,17 +16,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Node.js (for future use if needed)
-        uses: actions/setup-node@v3
-        with:
-          node-version: '14'  # Specify Node.js version if needed
-
-      - name: Install dependencies (for future use if needed)
-        run: npm install
-
-      - name: Build project (for future use if needed)
-        run: npm run build
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
