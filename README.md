@@ -1,6 +1,6 @@
 # odin-recipes
 
-This is my first Odin project.
+This is my first Odin project, called odin-recipes.
 
 It contains main index page and three other recipes' web pages, which can be opened from the index.html file's homepage.
 
